@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive with flex box
+    </title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap.bundle.js">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-fluid m-0 p-0">
+    <div class="text-uppercase fw-semibold">
+    <div class="d-lg-flex">
+    <div class="bg-black text-white fw-semibold header d-flex align-items-center justify-content-center w-l-o">header</div>
+    <div class="bg-danger text-white fw-semibold d-flex align-items-center justify-content-center menu d-md-none d-lg-flex w-l-t">menu</div>
+    </div>
+    <div class="bg-primary text-white fw-semibold d-flex align-items-center justify-content-center hero">hero</div>
+    <div class="d-md-flex">
+        <!-- only for tablet -->
+    <div class="w-25 d-lg-none">
+    <div class="bg-danger text-white d-none d-md-flex fw-semibold d-flex align-items-center justify-content-center menu h-t">menu</div>
+    </div>
+    <!-- only for tabet -->
+    <div class=" w w-md-75 w-t d-lg-flex justify-content-between">
+    <div class="bg-black text-white fw-semibold d-flex align-items-center justify-content-center main w-lg-50">main</div>
+    <div class="bg-warning text-black fw-semibold d-flex d-lg-none align-items-center justify-content-center banner">banner</div>
+    <div class="w-50 d-lg-block d-none"></div>
+    <div class="d-md-flex flex-lg-column">
+    <div class="bg-success text-black fw-semibold d-flex align-items-center justify-content-center extra w-e-t">extra</div>
+    <div class="bg-primary-subtle text-black fw-semibold d-flex align-items-center justify-content-center w-i-t image">image</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="bg-warning text-black fw-semibold d-none d-lg-block banner h-b">
+  <div class="h-b fw-bold">BANNER</div>
+    </div>
+    </div>
+</body>
+</html>
