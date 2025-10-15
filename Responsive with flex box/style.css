@@ -1,0 +1,93 @@
+.header
+{
+height: 10dvh;
+}
+.menu
+{
+    height: 12dvh;
+}
+.hero
+{
+    height: 24dvh;
+}
+.main
+{
+    height: 24dvh;
+}
+.banner
+{
+    height: 10dvh;
+}
+.extra
+{
+    height: 10dvh;
+}
+.image
+{
+    height: 10dvh;
+}
+.w{
+    width: 100dvw;
+}
+@media (min-width:768px){
+    .hero{
+        height: 30dvh;
+    }
+   .w-t{
+    width: 75dvw;;
+   } 
+   .main
+{
+    height: 30dvh;
+}
+.h-t{
+    height: 60dvh;
+}
+.banner
+{
+    height: 20dvh;
+}
+.w-e-t{
+    width: 50dvw;
+}
+.w-i-t{
+    width:25dvw;
+}
+}
+@media (min-width:992px){
+    .header{
+        height: 10dvh;
+    }
+    .menu{
+        height:10dvh;
+    }
+    .w-l-o{
+        width:25dvw ;
+    }
+.w-l-t{
+    width:75dvw;
+}
+.hero{
+        height: 60dvh;
+    }
+ .w-e-t{
+    width: 20dvw;
+}
+.w-i-t{
+    width:20dvw;
+}
+.main
+{
+    height: 20dvh;
+    width: 100dvw;
+    
+}
+.w{
+    width: 100dvw;
+}
+.h-b{
+height: 10dvh;
+display: flex;
+align-items: center;
+justify-content: center;
+}}
